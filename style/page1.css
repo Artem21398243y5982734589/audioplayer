@@ -1,0 +1,55 @@
+body{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        background-color: #0e0e0e;
+}
+#player_tvGirl_notAllowed{
+        display: block;    
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 130px;
+        width: 300px;
+        height: 520px;
+        border-radius: 30px;
+        font-family: sans-serif;
+        transition: 0.3s;
+        color: white;       
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        animation: pulse-shadow 2s infinite;
+}
+@keyframes pulse-shadow {
+        0% {
+            box-shadow: 0 0 10px rgba(245,19,211,1);
+            transform: translateY(0);
+        }
+        50% {
+            box-shadow: 0 0 20px rgba(245,19,211,1);
+            transform: translateY(-1px);
+        }
+        100% {
+            box-shadow: 0 0 10px rgba(245,19,211,1);
+            transform: translateY(0);
+        }
+    }
+.iamgeLogoMusic{
+        border-radius: 30px 30px 0px 0px;
+}
+button{
+        width: 30px;
+        height: 30px;
+        border: none;
+        transition: 0.3s;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 50%;
+        color: white;
+}
+#button:active{
+        background-color: #ededed;
+}
+#nameTracks{
+        font-size: 23px;
+}
+
